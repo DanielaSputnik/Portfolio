@@ -105,7 +105,7 @@ function Navbar({ toggle }) {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/projectspage'>Click me</NavBtnLink>
+                        <NavBtnLink to='/cv'>Open CV</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

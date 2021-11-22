@@ -13,17 +13,17 @@ import {
 } from './CardsElements'
 import FullView from './FullView'
 
-const Card = ({ cardId, title, text, image, btntxt, url, darkText, lightCard, imgStart, toggleFW, linkedCard, fullImg }) => {
+const Card = ({title, text, image, btntxt, url, darkText, lightCard, imgStart, toggleFW, linkedCard, fullImg }) => {
     const [toggleFullView, setToggleFullView] = useState(false)
-    const [selectedCard, setSelectedCard] = useState('')
+    // const [selectedCard, setSelectedCard] = useState('')
 
-    const openCard = (e) => {
-        e.preventDefault();
-        if (toggleFW) {
-            setToggleFullView(true)
-            setSelectedCard(e.target.id)
-        }
-    }
+    // const openCard = (e) => {
+    //     e.preventDefault();
+    //     if (toggleFW) {
+    //         setToggleFullView(true)
+    //         setSelectedCard(e.target.id)
+    //     }
+    // }
 
     const goToSite = (url) => {
         window.open(url)
@@ -37,10 +37,10 @@ const Card = ({ cardId, title, text, image, btntxt, url, darkText, lightCard, im
                 setTrigger={setToggleFullView}>
                 <CardsIcon src={fullImg} />
             </FullView>
-            <StyledCard lightCard={lightCard} imgStart={imgStart}  onClick={openCard}>
+            <StyledCard lightCard={lightCard} imgStart={imgStart} >
                 <StyledCardContent>
 
-                    <StyledCardSide className='front' lightCard={lightCard}>
+                    <StyledCardSide className='front' lightCard={lightCard} imgStart={imgStart}>
                         <ColumnImage>
                             <CardsIcon src={image} />
                         </ColumnImage>

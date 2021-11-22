@@ -134,13 +134,13 @@ export const ColumnText = styled.div`
     justify-content: flex-start;
     align-items: center;
     width: 300px;
-    height: 130px;
+    height: 100px;
     @media screen and (max-width: 1200px){
         width: 200px;
         height: 190px;
         justify-content: center;
-        padding: 10px 0;
-
+        padding-right: 10px ;
+        padding-left: 5px;
     }
 `
 export const ColumnImage = styled.div`
@@ -149,10 +149,11 @@ export const ColumnImage = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-        padding-bottom: 20px;
+    padding-bottom: 20px;
 
     @media screen and (max-width: 1200px){
-        padding: 20px 5px;
+        padding-right: 5px;
+        padding-top: 20px;
     }
 `
 export const CardsBtn = styled.button`
@@ -185,6 +186,7 @@ export const CardsBtn = styled.button`
 export const CardsIcon = styled.img`
     height: 150px;
     width: 200px;
+    border-radius: 5px;
 `
 export const CardsH2 = styled.h2`
     font-size: 1.4rem;

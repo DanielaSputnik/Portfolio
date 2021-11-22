@@ -21,7 +21,7 @@ export const Button = styled(Link)`
 
     &:hover {
         transition: width 2s;
-        width: 35%;
+        width: 60%;
         background: ${({primary}) => (primary ? '#223225' : '#84a88b')};
         color: ${({ dark }) => (dark ? '#c0d8c4' : '#223225')};
     }

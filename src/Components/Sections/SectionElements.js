@@ -1,4 +1,5 @@
 import styled from 'styled-components/macro'
+import { Link as LinkR } from 'react-router-dom'
 
 export const SectionContainer = styled.div`
     background: ${({ lightBg }) => (lightBg ? '#c0d8c4' : '#426347')};
@@ -73,7 +74,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.p`
     font-size: 4rem;
-    line-height: 30px;
+    line-height: 40px;
     font-weight: 900;
     letter-spacing: 1.4px;
     text-transform: uppercase;
@@ -118,6 +119,23 @@ export const BtnWrap = styled.div`
     @media screen and (max-width: 760px) {
         justify-content: center;
     }
+`
+
+export const NavBtnLink = styled(LinkR) `
+border-radius: 50px 5px;
+background: #426347;
+white-space: nowrap;
+padding: 10px 30px;
+color: #c0d8c4;
+font-size: 1.2rem;
+outline:none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+&:hover{
+    background: #223225;
+}
 `
 
 export const ImgWrap = styled.div`

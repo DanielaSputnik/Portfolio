@@ -12,7 +12,8 @@ import {
     TopLine,
     Heading,
     Subtitle,
-    BtnWrap
+    BtnWrap,
+    NavBtnLink
 } from './SectionElements'
 
 const Section = ({
@@ -28,22 +29,15 @@ const Section = ({
                                 <Heading lightText={lightText}> {headline} </Heading>
                                 <Subtitle darkText={darkText}> {description} </Subtitle>
                                 <BtnWrap>
-                                    <Button to='home'
-                                        smooth={true}
-                                        duration={500}
-                                        spy={true}
-                                        exact='true'
-                                        offset={-80}
-                                        primary={primary ? 1: 0}
-                                        dark={dark ? 1 : 0}
+                                    <NavBtnLink to='/cv'
                                     >{buttonLabel}
-                                    </Button>
+                                    </NavBtnLink>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt}/>
+                                <Img src={img} alt={alt} />
                             </ImgWrap>
                         </Column2>
                     </SectionRow>

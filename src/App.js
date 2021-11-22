@@ -2,14 +2,14 @@ import React from "react";
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Home from "./Pages/PagesIndex";
-import ProjectsPage from "./Pages/ProjectsPage";
+import CVPage from "./Pages/CVPage";
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path='/' component={Home} exact/>
-        <Route path='/projectspage' component={ProjectsPage} exact/>
+        <Route path='/CV' component={CVPage} exact/>
       </Switch>
     </Router>
   );
