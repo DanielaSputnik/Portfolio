@@ -5,40 +5,40 @@ const Experiences = () => {
     return (
     <>
         <ExpContainer id='experiences'>
-        <ExpHeading>Experience</ExpHeading>
+        <ExpHeading>Experiences</ExpHeading>
         <ExpWrapper>
                     
             <ExpTLYear>2022</ExpTLYear>
             <ExpTLItem>
-                <ExpTLTitle>Front End</ExpTLTitle>
-                <ExpTLSubTitle>Self study with focus on JS, React and NodeJS</ExpTLSubTitle>
+                <ExpTLTitle>Front End Development Self Studies</ExpTLTitle>
+                <ExpTLSubTitle>Completed several courses on Pluralsight with focus on JS & React.</ExpTLSubTitle>
             </ExpTLItem>
                     
             <ExpTLItem>
                 <ExpTLTitle>Data Analyst at EY</ExpTLTitle>
-                <ExpTLSubTitle>Development of reports using SQL, Tableau, Jira & Snowflake</ExpTLSubTitle>
+                <ExpTLSubTitle>Development and maintenance of Key Risk Indicator reports using T-SQL, Tableau, Jira & Snowflake.</ExpTLSubTitle>
             </ExpTLItem>
             <ExpTLYear>2021</ExpTLYear>
             <ExpTLItem>
                 <ExpTLTitle>Python Course & Data Academy</ExpTLTitle>
-                <ExpTLSubTitle>At ENGETO Academy in Brno  </ExpTLSubTitle>
+                <ExpTLSubTitle>Attended ENGETO Academy courses in Brno  </ExpTLSubTitle>
             </ExpTLItem>
             
             
             <ExpTLItem>
                         <ExpTLTitle>AP Accountant at Lear Corp.</ExpTLTitle>
-                <ExpTLSubTitle>Stress work work stress</ExpTLSubTitle>
+                <ExpTLSubTitle>Overseen the AP invoicing processes.</ExpTLSubTitle>
             </ExpTLItem>
             <ExpTLYear>2020</ExpTLYear>       
             
             <ExpTLItem>
                 <ExpTLTitle>Finished Master's Degree</ExpTLTitle>
-                <ExpTLSubTitle>At Commenius University in Bratislava in Chinese Language Studies </ExpTLSubTitle>
+                <ExpTLSubTitle>In Chinese Language Studies at Commenius University in Bratislava </ExpTLSubTitle>
             </ExpTLItem>
                     
             <ExpTLItem>
-                <ExpTLTitle>Huawei</ExpTLTitle>
-                <ExpTLSubTitle>Internship</ExpTLSubTitle>
+                <ExpTLTitle>Internship at Huawei s.r.o</ExpTLTitle>
+                <ExpTLSubTitle>Creation and analysis of purchase/procurement orders</ExpTLSubTitle>
                     </ExpTLItem>
             <ExpTLYear>2018</ExpTLYear>
         </ExpWrapper>

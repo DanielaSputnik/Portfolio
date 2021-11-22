@@ -11,7 +11,7 @@ export const ExpWrapper = styled.div`
     padding: 1.5rem;
     margin: 0 auto;
     max-width: 1100px;
-    height: 1050px;
+    height: 1100px;
 
     &:before {
         content: '';
@@ -49,12 +49,12 @@ export const ExpHeading = styled.p`
 `
 
 export const ExpTLItem = styled.div`
-    padding: 1rem;
+    padding: 0.5rem 0.9rem;
     background: #c0d8c4;
     border: 2px solid #223225;
     border-radius: 5px;
     position: relative;
-    margin: 0.5rem 2rem 0.5rem 4rem;
+    margin: 0.1rem 2rem 0.5rem 4rem;
     clear: both;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 
