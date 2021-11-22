@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../ButtonElements'
 import {
     Column2,
     Img,
@@ -17,7 +16,7 @@ import {
 } from './SectionElements'
 
 const Section = ({
-    lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2 }) => {
+    lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt }) => {
     return (
         <>
             <SectionContainer lightBg={lightBg} id={id} >

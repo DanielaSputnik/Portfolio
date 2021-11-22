@@ -44,7 +44,7 @@ const HeroSection = () => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-70}>
+                            offset={-50}>
                             See More About Me {hover ? <ArrowDown/> : <ArrowForward    />}
                         </Button>
                     </HeroBtnWrapper>

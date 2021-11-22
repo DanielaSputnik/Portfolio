@@ -7,8 +7,8 @@ import {
     NavMenu,
     NavItem,
     NavLinks,
-    NavBtn,
-    NavBtnLink,
+    // NavBtn,
+    // NavBtnLink,
 } from './NavbarElements'
 import { ImMenu } from 'react-icons/im'
 import {animateScroll as scroll} from 'react-scroll'
@@ -104,9 +104,9 @@ function Navbar({ toggle }) {
                             </NavLinks>
                         </NavItem>
                     </NavMenu>
-                    <NavBtn>
+                    {/* <NavBtn>
                         <NavBtnLink to='/cv'>Open CV</NavBtnLink>
-                    </NavBtn>
+                    </NavBtn> */}
                 </NavbarContainer>
             </Nav>
         </>
