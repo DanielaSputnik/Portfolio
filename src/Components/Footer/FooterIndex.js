@@ -13,7 +13,7 @@ const Footer = () => {
                     <FooterLinkItems href='//www.github.com/danielasputnik' target="_blank" aria-label='Github'>
                         <FaGithub />
                     </FooterLinkItems>
-                    <FooterLinkItems href='//www.linkedin.com' target="_blank" aria-label='Linkedin'>
+                    <FooterLinkItems href='//www.linkedin.com/in/daniela-drdakova-b9035a227/' target="_blank" aria-label='Linkedin'>
                         <FaLinkedin />
                     </FooterLinkItems>
                     <FooterLinkItems href='//www.instagram.com/natsuno_tsuki/' target="_blank" aria-label='Instagram'>
@@ -23,7 +23,7 @@ const Footer = () => {
                         <FaYoutube />
                     </FooterLinkItems>
                 </FooterLinksWrap>
-            </FooterWrap> 
+            </FooterWrap>
         </FooterContainer>
     )
 }

@@ -29,7 +29,7 @@ export const ExpWrapper = styled.div`
     }
 
     @media screen and (min-width: 1050px) {
-        height: 850px;
+        height: 800px;
         padding: 2rem;
         &:before {
             left: calc(50% - 1px);

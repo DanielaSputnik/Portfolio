@@ -32,8 +32,8 @@ const HeroSection = () => {
                         Hi & Welcome!
                     </HeroH1>
                     <HeroP>
-                        <HeroP2>I'm DANIELA</HeroP2>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;junior front-end developer based in Brno
+                        <HeroP2>I'm Daniela</HeroP2>
+                        junior front-end developer based in Brno
                     </HeroP>
                     <HeroBtnWrapper>
                         <Button to='about' onMouseEnter={onHover}

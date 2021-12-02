@@ -156,6 +156,7 @@ export const ColumnImage = styled.div`
         padding-top: 20px;
     }
 `
+
 export const CardsBtn = styled.button`
     border-radius: 50px 5px;
     background: #c0d8c4;
@@ -171,6 +172,7 @@ export const CardsBtn = styled.button`
     width: 15rem;
     height:4rem;
     box-shadow: 5px 5px #426347;
+    z-index: 90;
 
     &:hover {
         background: #426347;

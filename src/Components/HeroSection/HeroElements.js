@@ -70,11 +70,13 @@ export const HeroContent = styled.div`
 
 export const HeroP = styled.span`
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 40px;
     color: #fff;
-    font-size: 30px;
-    text-align: start;
-    max-width: 600px;
+    font-size: 2rem;
+    text-align: center;
+    max-width: 700px;
+    line-height: 4.5rem;
+    font-weight: 700;
 
     @media screen and (max-width: 1100px) {
         font-size: 24px;
@@ -85,10 +87,11 @@ export const HeroP = styled.span`
 `
 export const HeroP2 = styled.p`
     color: #223225;
-    font-size:3.5rem;
+    text-align: left;
+    font-size:4rem;
     font-weight: 700;
     text-decoration: underline;
-    line-height: 3rem;
+    line-height: 3.1rem;
     @media screen and (max-width: 1100px) {
         font-size: 2.5rem;
     }

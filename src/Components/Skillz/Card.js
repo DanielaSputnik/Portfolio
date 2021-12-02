@@ -39,6 +39,9 @@ const Card = ({title, text, image, btntxt, url, darkText, lightCard, imgStart, t
             </FullView>
             <StyledCard lightCard={lightCard} imgStart={imgStart} >
                 <StyledCardContent>
+                    <StyledCardSide className='back' lightCard={lightCard}>
+                        {linkedCard ? <CardsBtn onClick={() => goToSite(url)}>{btntxt} </CardsBtn> : <CardsIconBack src={fullImg}/>}
+                    </StyledCardSide>
 
                     <StyledCardSide className='front' lightCard={lightCard} imgStart={imgStart}>
                         <ColumnImage>
@@ -51,9 +54,7 @@ const Card = ({title, text, image, btntxt, url, darkText, lightCard, imgStart, t
                         </ColumnText> 
                     </StyledCardSide>
 
-                    <StyledCardSide className='back' lightCard={lightCard}>
-                        {linkedCard ? <CardsBtn onClick={() => goToSite(url)}>{btntxt} </CardsBtn> : <CardsIconBack src={fullImg}/>}
-                    </StyledCardSide>
+                    
 
                 </StyledCardContent>
             </StyledCard>
