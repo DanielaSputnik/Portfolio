@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import {
     Nav,
     NavbarContainer,
-    NavLogo,
+    NavHomeLogo,
     MobileIcon,
     NavMenu,
     NavItem,
@@ -23,7 +23,7 @@ function Navbar({ toggle }) {
     }
 
     const changeNav = () => {
-        if(window.scrollY >= 200) {
+        if(window.scrollY >= 150) {
             setScrollnav(true)
         }
         else {
@@ -43,11 +43,11 @@ function Navbar({ toggle }) {
         <>
             <Nav scrollnav={scrollnav? 1 : 0}>
                 <NavbarContainer>
-                    <NavLogo scrollnav={scrollnav ? 1 : 0}
+                    <NavHomeLogo scrollnav={scrollnav ? 1 : 0}
                             to='/'
                             onClick={toggleHome}>
                         <FaHome/>
-                    </NavLogo>
+                    </NavHomeLogo>
                     <MobileIcon onClick={toggle}>
                         <ImMenu/>
                     </MobileIcon>

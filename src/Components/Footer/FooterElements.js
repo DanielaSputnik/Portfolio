@@ -1,6 +1,7 @@
 import styled from 'styled-components/macro'
 
 export const FooterContainer = styled.div`
+    min-width: 450px;
     background-color: #223225;
 `
 

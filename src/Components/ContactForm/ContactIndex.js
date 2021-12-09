@@ -125,7 +125,7 @@ const Contact = () => {
                                     </RadioWrapper>
                                 </RadioContainer>
                                 <FormGroupMessage
-                                    name='message' placeholder='Message' cols='45' rows='8'
+                                    name='message' placeholder='Message' rows='8'
                                     value={text} onChange={handleTextChange}>
                                 </FormGroupMessage>
                                 <ButtonWrapper>

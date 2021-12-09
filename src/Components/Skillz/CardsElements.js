@@ -2,6 +2,7 @@ import styled from 'styled-components/macro'
 
 export const CardsContainer = styled.div`
     height: 1000px;
+    min-width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;

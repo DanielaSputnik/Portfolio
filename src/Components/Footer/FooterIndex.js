@@ -7,7 +7,7 @@ const Footer = () => {
         <FooterContainer>
             <FooterWrap>
                 <WebsiteRights>DDaniela ©  {new Date().getFullYear()}
-                    &nbsp; Some rights reserved
+                    &nbsp; No rights reserved
                 </WebsiteRights>
                 <FooterLinksWrap>
                     <FooterLinkItems href='//www.github.com/danielasputnik' target="_blank" aria-label='Github'>

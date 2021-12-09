@@ -11,6 +11,7 @@ export const Nav = styled.nav`
     align-items: center;
     font-size: 1rem;
     position: sticky;
+    min-width: 450px;
     top:0;
     z-index: 10;
 
@@ -27,9 +28,13 @@ z-index:1;
 width:100%;
 padding: 0 24px;
 max-width: 1100px;
+@media screen and (max-width:768px) {
+    justify-content: space-between;
+    }
+
 `
 
-export const NavLogo = styled(LinkR)`
+export const NavHomeLogo = styled(LinkR)`
 color: #223225;
 justify-self: flex-start;
 cursor: pointer;
@@ -70,7 +75,7 @@ margin-right: -22px;
 }
 `
 export const NavItem = styled.li`
-height: 40px;
+    height: 40px;
 `
 
 export const NavContent = styled.div`
@@ -78,7 +83,6 @@ export const NavContent = styled.div`
 export const NavIndicator = styled.div`
     background-color: black;
 `
-
 
 export const NavLinks = styled(LinkS)`
     color: #223225;

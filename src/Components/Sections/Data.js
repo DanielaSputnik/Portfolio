@@ -3,7 +3,7 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
-    topLine: 'Jr Front End Developer in making',
+    topLine: 'Front End Developer in making',
     headline: 'Daniela Drdakova',
     description: 'I am an aspiring developer of front end applications with passion for coding, design, details and the Lord of the Rings (amongst many other things). Get my CV from the link below or continue scrolling to see more..',
     buttonLabel: 'Open CV',

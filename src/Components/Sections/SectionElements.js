@@ -4,6 +4,7 @@ import { Link as LinkR } from 'react-router-dom'
 export const SectionContainer = styled.div`
     background: ${({ lightBg }) => (lightBg ? '#c0d8c4' : '#426347')};
     color:#fff;
+    min-width: 450px;
     align-items: center;
 `
 export const SectionWrapper = styled.div`
@@ -90,7 +91,7 @@ export const Heading = styled.p`
 
     }
     @media screen and (max-width: 380px) {
-        font-size:1rem;
+        font-size:1.7rem;
         text-align: center;
     }
 `
@@ -108,7 +109,6 @@ export const Subtitle = styled.p`
     @media screen and (max-width: 380px) {
         font-size: 14px;
         text-align: center;
-        max-width: 300px;
     }
 `
 

@@ -10,9 +10,13 @@ export const HeroContainer = styled.div`
     justify-content: flex-start;
     align-items: center;
     padding: 0 30px;
+    min-width: 450px;
     height: 1000px;
     position: relative;
     z-index: 1;
+    @media screen and (max-width: 450px){
+        height: 1100px;
+    }
 `
 
 export const HeroContentWrapper = styled.div`
@@ -22,8 +26,11 @@ position: absolute;
     bottom: 0;
     left: 5rem;
     @media screen and (max-width: 1100px){
-        left: 2rem;
+        left: 1.5rem;
         top: 7rem;
+    }
+    @media screen and (max-width: 500px){
+        height: 1200px;
     }
 `
 
@@ -55,6 +62,9 @@ export const ImageBg = styled.div`
     @media screen and (max-width: 580px){
         background-image: url(${ImageXS});
     }
+    @media screen and (max-width: 450px){
+        background-image: url(${ImageXS});
+    }
 `
 
 export const HeroContent = styled.div`
@@ -67,14 +77,26 @@ export const HeroContent = styled.div`
     align-items: left;
     
 `
+export const HeroP = styled.p`
+    color: #223225;
+    text-align: left;
+    font-size:4rem;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 3rem;
+    @media screen and (max-width: 1100px) {
+        font-size: 2.5rem;
+    }
+    @media screen and (max-width: 500px) {
+        text-align: center;
+    }
+`
 
-export const HeroP = styled.span`
+export const HeroP2 = styled.span`
     margin-top: 5px;
-    margin-left: 40px;
     color: #fff;
     font-size: 2rem;
     text-align: center;
-    max-width: 700px;
     line-height: 4.5rem;
     font-weight: 700;
 
@@ -83,17 +105,11 @@ export const HeroP = styled.span`
     }
     @media screen and (max-width: 580px) {
         font-size: 20px;
-    }  
-`
-export const HeroP2 = styled.p`
-    color: #223225;
-    text-align: left;
-    font-size:4rem;
-    font-weight: 700;
-    text-decoration: underline;
-    line-height: 3.1rem;
-    @media screen and (max-width: 1100px) {
-        font-size: 2.5rem;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 19px;
+        line-height: 1.5rem;
+        text-align: center;
     }
 `
 
@@ -107,13 +123,19 @@ export const HeroH1 = styled.h1`
     }
     @media screen and (max-width: 800px) {
         font-size: 3.9rem;
-    }   
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 3.5rem;
+    }
 `
 export const HeroBtnWrapper = styled.div`
     margin-top: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (max-width: 500px) {
+            margin-top: 10px;
+    }
 `
 
 export const ArrowForward = styled(BsArrowRightShort)`

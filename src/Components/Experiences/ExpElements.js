@@ -4,6 +4,7 @@ export const ExpContainer = styled.div`
     box-sizing: border-box;
     background: #426347;
     color: #c0d8c4;
+    min-width: 450px;
     padding: 1rem;
 `
 export const ExpWrapper = styled.div`
@@ -11,7 +12,7 @@ export const ExpWrapper = styled.div`
     padding: 1.5rem;
     margin: 0 auto;
     max-width: 1100px;
-    height: 1100px;
+    height: 950px;
 
     &:before {
         content: '';
@@ -29,12 +30,15 @@ export const ExpWrapper = styled.div`
     }
 
     @media screen and (min-width: 1050px) {
-        height: 800px;
         padding: 2rem;
         &:before {
             left: calc(50% - 1px);
             right: auto;
         }
+    }
+
+    @media screen and (max-width: 500px) {
+        height: 1200px;
     }
 `
 export const ExpHeading = styled.p`
@@ -46,6 +50,10 @@ export const ExpHeading = styled.p`
     margin-bottom: 1.2rem;
     margin-top: 1.5rem;
     text-align: center;
+
+    @media screen and (max-width: 500px) {
+        font-size: 2rem;
+    }
 `
 
 export const ExpTLItem = styled.div`

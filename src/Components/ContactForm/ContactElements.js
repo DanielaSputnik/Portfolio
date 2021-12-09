@@ -7,13 +7,14 @@ export const ContactContainer = styled.div`
     align-items: center;
     height: 950px;
     margin: 0px;
+    min-width: 450px;
     width: 100%;
     @media screen and (max-width: 1100px) {
         height: 1000px;
     }
 `
 export const ContactWrapper = styled.div`
-    max-width: 850px;
+    max-width: 950px;
     flex:  800px;
     margin: auto;
     padding: 10px;
@@ -61,7 +62,7 @@ export const ScreenBodyForm = styled.form`
 `    
 export const ScreenBodyItem = styled.div`
     justify-content: center;
-    padding: 30px 30px 0px 30px;
+    padding: 30px;
     min-height: 300px;
     align-items: center;
     @media screen and (max-width: 900px) {
@@ -120,6 +121,8 @@ export const FormContactInfoWrapper = styled.div`
 `
 
 export const FormGroupMessage = styled.textarea`
+    width: 100%;
+    height: auto;
     margin-top: 5px;
     padding: 10px;
     background: #426347;
@@ -143,6 +146,7 @@ export const FormGroupMessage = styled.textarea`
 
 export const FormInput = styled.input`
     width: 100%;
+    height: 100%;
     padding: 10px 0;
     background: none;
     border: none;
@@ -157,8 +161,8 @@ export const FormInput = styled.input`
         color: rgba(255, 255, 255, 0.4);
     }
     &:focus {
-    outline: none;
-    border-bottom: 1px solid #c0d8c4;
+        outline: none;
+        border-bottom: 1px solid #c0d8c4;
     }
 `
 
