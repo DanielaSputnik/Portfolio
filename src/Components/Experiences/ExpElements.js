@@ -5,6 +5,7 @@ export const ExpContainer = styled.div`
     background: #426347;
     color: #c0d8c4;
     min-width: 450px;
+    min-height: 100vh;
     padding: 1rem;
 `
 export const ExpWrapper = styled.div`
@@ -12,7 +13,6 @@ export const ExpWrapper = styled.div`
     padding: 1.5rem;
     margin: 0 auto;
     max-width: 1100px;
-    height: 950px;
 
     &:before {
         content: '';
@@ -37,9 +37,6 @@ export const ExpWrapper = styled.div`
         }
     }
 
-    @media screen and (max-width: 500px) {
-        height: 1200px;
-    }
 `
 export const ExpHeading = styled.p`
     font-size: 5rem;
@@ -52,7 +49,7 @@ export const ExpHeading = styled.p`
     text-align: center;
 
     @media screen and (max-width: 500px) {
-        font-size: 2rem;
+        font-size: 4rem;
     }
 `
 

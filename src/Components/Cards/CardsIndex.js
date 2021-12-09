@@ -23,6 +23,7 @@ const CardSection = ({ lightBg, id, lightText, darkText, cards, lightCard, imgSt
                             linkedCard={linkedCard}
                             url={card.url}
                             fullImg={card.fullImg}
+                            addText={card.addText}
                             darkText={darkText}
                             lightCard={lightCard}
                             imgStart={imgStart}

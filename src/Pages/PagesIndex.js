@@ -5,10 +5,10 @@ import HeroSection from '../Components/HeroSection/HeroIndex';
 import Experiences from '../Components/Experiences/ExperiencesIndex'
 import Section from '../Components/Sections/SectionIndex';
 import { homeObjOne } from '../Components/Sections/Data';
-import { cardObjSkills, cardObjProjects } from '../Components/Skillz/DataCards';
+import { cardObjSkills, cardObjProjects } from '../Components/Cards/DataCards';
 import Footer from '../Components/Footer/FooterIndex';
 import Contact from '../Components/ContactForm/ContactIndex';
-import CardSection from '../Components/Skillz/CardsIndex';
+import CardSection from '../Components/Cards/CardsIndex';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)

@@ -21,17 +21,16 @@ export const cardObjSkills = {
     linkedCard: false,
     toggleFW: true,
     headline: 'Skills',
-    description: 'Behold the field in which I grow my skills. Lay thine eyes upon it and see that it is (not so) barren.',
+    description: 'Behold the field in which I grow my skills. Lay thine eyes upon it and see that it is (kinda still) barren.',
     buttonLabel: '',
     cards: [
-        { id: 'SK1', cTitle: 'Front End', cDesc: 'I have spent the past few months in an intense study of various front-end development tools, focusing primarily on JavaScript & React', cImg: IconFE, alt: 'FrontEndIcon', fullImg: FrontEndAll },
-        { id: 'SK2', cTitle: 'Data Analysis', cDesc: 'After completing several courses in SQL, Python & Tableau I have put these skills to use in my previous job as a data analyst', cImg: IconDA, alt: 'DataAnalysisIcon', fullImg: DataAll },
-        { id: 'SK3', cTitle: 'Design', cDesc: "I have been an amateur artist since my childhood and I often find myself creating or editing things in Adobe's Illustrator, Photoshop or After Effects", cImg: IconDE, alt: 'DesignIcon', fullImg: DesignAll },
+        { id: 'SK1', cTitle: 'Front End', cDesc: 'I have spent the past few months in an intense study of various front-end development tools, focusing primarily on JavaScript & React', cImg: IconFE, alt: 'FrontEndIcon', fullImg: FrontEndAll, addText: 'Technologies I am currently self-studying include: HTML, CSS, JS, React, GraphQL, Node.js' },
+        { id: 'SK2', cTitle: 'Data Analysis', cDesc: 'After completing several courses in SQL, Python & Tableau I have put these skills to use in my previous job as a data analyst', cImg: IconDA, alt: 'DataAnalysisIcon', fullImg: DataAll, addText: 'Technologies I use at my current job include: T-SQL, SQL Server, Tableau, Python, Snowflake' },
+        { id: 'SK3', cTitle: 'Design', cDesc: "I have been an amateur artist since my childhood and I often find myself creating or editing things in Adobe's Illustrator, Photoshop or After Effects", cImg: IconDE, alt: 'DesignIcon', fullImg: DesignAll, addText: 'Technologies I enjoy using in my free time include: Adobe Photoshop, Adobe Illustrator, Adobe AfterEffects' },
     ]
     ,
     darkText: true,
 }
-
 
 export const cardObjProjects = {
     id: 'projects',
@@ -54,7 +53,7 @@ export const cardObjProjects = {
             id: 'PR5', cTitle: 'Image Gallery', cDesc: 'Skyrim wallpaper gallery with possiblity for live connection with Cloudinary API', cImg: SKGallery, alt: 'SkyrimGallery', btn: 'Go to Site', url: 'https://skyrim-gallery-app.netlify.app/'
         },
         {
-            id: 'PR6', cTitle: '\u261d This Site \u261f', cDesc: 'Scalable styled-components design, routing & live email form', cImg: Portfolio, alt: 'PortfolioSite', btn: 'You Are Already Here',
+            id: 'PR6', cTitle: '\u261d This Site \u261f', cDesc: 'Scalable styled-components design, routing & live email form', cImg: Portfolio, alt: 'PortfolioSite', 
         }
     ],
     darkText: false,
