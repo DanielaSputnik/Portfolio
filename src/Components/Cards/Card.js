@@ -18,13 +18,13 @@ import FullView from './FullView'
 
 const Card = ({ title, text, image, btntxt, url, darkText, lightCard, imgStart, toggleFW, linkedCard, fullImg, addText }) => {
     const [toggleFullView, setToggleFullView] = useState(false);
-    const [selectedCard, setSelectedCard] = useState('');
+    // const [selectedCard, setSelectedCard] = useState('');
 
     const openCard = (e) => {
         e.preventDefault();
         if (toggleFW) {
             setToggleFullView(true);
-            setSelectedCard(e.target.id);
+            // setSelectedCard(e.target.id);
         }
     }
 
