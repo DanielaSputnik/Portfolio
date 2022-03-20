@@ -4,9 +4,7 @@ const CVPage = () => {
 
    return (
       <div style={{height: '1500px'}}>
-         <object data={CV} type="application/pdf" width="100%" height="100%">
-            <p>DDrdakova CV</p>
-         </object>
+            <p>Temporarily removed</p>
       </div>
    )
 }
