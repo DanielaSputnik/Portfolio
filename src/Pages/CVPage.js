@@ -1,5 +1,3 @@
-import CV from '../Images/2022 CV.pdf'
-
 const CVPage = () => {
 
    return (
